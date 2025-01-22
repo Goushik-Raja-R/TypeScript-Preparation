@@ -3,7 +3,7 @@ var a = 100;
 console.log(a);
 var a = 200;
 console.log(a);
-var a = "goushik";
+var aa = "goushik";
 console.log(a);
 // LET & CONST --> Can't be reassigned or updated
 var b = 20;
