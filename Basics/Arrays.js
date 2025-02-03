@@ -1,4 +1,6 @@
+"use strict";
 //Declaration and Intialization of Array
+Object.defineProperty(exports, "__esModule", { value: true });
 var movies = ["mother", "I saw the devil", "Interstellar"];
 console.log(movies);
 var series; //decalaration
@@ -18,3 +20,7 @@ for (var i = 0; i < values.length; i++) {
 for (var j in values1) {
     console.log(values1[j]);
 }
+var newArray = [];
+newArray.push({ name: "goushik", isActive: true });
+newArray.push({ name: "Akshay", isActive: true });
+console.log(newArray[0]);

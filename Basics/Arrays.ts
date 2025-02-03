@@ -26,3 +26,18 @@ for(var i:number=0;i<values.length;i++){
 for(var j in values1){
     console.log(values1[j]);
 }
+
+
+type User={
+    name:string;
+    isActive:boolean;
+}
+
+const newArray:User[] = [];
+
+newArray.push({name:"goushik",isActive:true});
+newArray.push({name:"Akshay",isActive:true})
+
+console.log(newArray[0])
+
+export{}
