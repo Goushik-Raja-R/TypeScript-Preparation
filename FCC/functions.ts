@@ -40,7 +40,27 @@ function handleError(errmsg:string): never{
     throw new Error(errmsg);
 }
 
- 
+interface takephoto{
+    angle:string;
+    ratio:number;
+    filter:string
+}
+
+interface story{
+    Isupdated():void
+}
+
+class Instagram implements takephoto,story{
+     
+    constructor(public angle:string,public ratio:number,public filter:string) {
+        
+    }
+
+    Isupdated(): void {
+        console.log("Story is updated");
+    }
+}
+
 
 
 export{}
