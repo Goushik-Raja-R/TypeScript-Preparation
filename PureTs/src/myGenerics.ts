@@ -1,41 +1,41 @@
-// // Generics class
+// Generics class
 
-// class One<t>{
-//     val:t;
-//     constructor(val:t){
-//         this.val=val;
-//     }
+class One<t>{
+    val:t;
+    constructor(val:t){
+        this.val=val;
+    }
 
-//     GetValue():t{
-//         return this.val
-//     }
-// }
+    GetValue():t{
+        return this.val
+    }
+}
 
-// const two = new One(10);
+const two = new One(10);
 
-// console.log(two.GetValue());
-
-
-// // generics Functions
-
-// function answer<t>(value:t):t{
-//     return value;
-// }
-
-// console.log(answer("barath akshay bhuvanesh"));
+console.log(two.GetValue());
 
 
-// function GettheValue<T>(products:T[]):T{
-//      const myindex = 2;
-//      return products[myindex]
-// }
+// generics Functions
 
-// //arrow function 
+function answer<t>(value:t):t{
+    return value;
+}
 
-// const GetValues = <T,>(products:T[]):T =>{
-//     const index=1;
-//     return products[index]
-// }
+console.log(answer("barath akshay bhuvanesh"));
+
+
+function GettheValue<T>(products:T[]):T{
+     const myindex = 2;
+     return products[myindex]
+}
+
+//arrow function 
+
+const GetValues = <T,>(products:T[]):T =>{
+    const index=1;
+    return products[index]
+}
 
 interface quiz{
     department:string,
@@ -60,3 +60,9 @@ const store = new BookSelling<string>();
 store.addtocart("hi")
 store.addtocart("hello")
 console.log(store.cart)
+
+function checking<T> (value:T):T{
+     return value
+}
+
+console.log(checking<string>("goushik"))

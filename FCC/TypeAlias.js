@@ -19,3 +19,7 @@ function printID(order) {
     console.log("userId is ".concat(order.UserId));
 }
 printID({ UserId: "Goushik10", OrderId: 21 });
+function printing(one) {
+    return one.name;
+}
+console.log(printing({ name: "goushik" }));

@@ -45,3 +45,26 @@ console.log(sreeraj.GetcourseCount)
  goushik.SetEmailId="goushikParameswari@gmail.com";
  
  console.log(goushik.GetEmailID)
+
+
+class person{
+
+    constructor(private name:string,private email:string,public pID:number){
+        this.name=name;
+        this.email=email;
+        this.pID=pID;
+    }
+
+    get GetName():string{
+        return this.name
+    }
+
+    set SetName(NewName:string){
+        this.name=NewName
+    }
+}
+
+const person1 = new person("goushik","goushik@gmail.com",10)
+console.log(person1.GetName)
+person1.SetName="goushik_raja"
+console.log(person1.GetName)

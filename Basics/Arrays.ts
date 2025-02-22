@@ -40,4 +40,7 @@ newArray.push({name:"Akshay",isActive:true})
 
 console.log(newArray[0])
 
+var list:string[] =["kwnd","kwdkj","fcsgw"]
+console.log(list)
+
 export{}

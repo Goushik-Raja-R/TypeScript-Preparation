@@ -29,8 +29,21 @@ var store = { name: "barath", email: "barathebk@gmail", id: 10 };
 console.log(store);
 var answer = {
     name: "bhuvanesh",
+    // sayhello:() =>"hello welcome"
     sayhello: function () {
         return "hello welcome";
-    },
+    }
 };
 console.log(answer.sayhello());
+var emp = {
+    name: "akshay",
+    empid: 10
+};
+console.log(emp);
+var being1 = {
+    name: "barath",
+    sayhi: function () {
+        return "hi";
+    }
+};
+console.log(being1.sayhi());

@@ -12,8 +12,6 @@ function addition(add:adding):number{
 var ans = addition({a:10,b:20})
 console.log(ans)
 
-export{}
-
 
 // Excersise 1
 
@@ -48,3 +46,18 @@ function printID(order:ID){
 }
 
 printID({UserId:"Goushik10",OrderId:21})
+
+
+type User={
+    name:string;
+    ID:number;
+}
+
+type NewUser = Pick<User,"name">;
+
+function printing(one:NewUser):string{
+     return one.name
+}
+console.log(printing({name:"goushik"}))
+
+export{}

@@ -27,3 +27,5 @@ var person:number=10;
 var person1:number=30;
 
 person>person1?console.log(person+" is greater"):console.log(person1+" is the greatest");
+
+export{}

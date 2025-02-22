@@ -24,3 +24,5 @@ var newArray = [];
 newArray.push({ name: "goushik", isActive: true });
 newArray.push({ name: "Akshay", isActive: true });
 console.log(newArray[0]);
+var list = ["kwnd", "kwdkj", "fcsgw"];
+console.log(list);

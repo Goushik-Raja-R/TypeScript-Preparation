@@ -8,7 +8,6 @@ const User ={
 function CreateUser():{Emp:string,isPaid:boolean}{
     return{Emp:"goushik",isPaid:true}
 }
-
 const candidate = CreateUser();
 
 console.log(candidate)
@@ -59,5 +58,27 @@ const answer:human ={
 }
 
 console.log(answer.sayhello());
+
+let emp:{name:string,empid:number}={
+    name:"akshay",
+    empid:10
+}
+ 
+console.log(emp)
+
+
+type being ={
+    name:string;
+    sayhi:()=>string
+}
+
+const being1:being={
+    name:"barath",
+    sayhi(){
+        return "hi"
+    }
+}
+console.log(being1.sayhi());
+
 
 export{}
