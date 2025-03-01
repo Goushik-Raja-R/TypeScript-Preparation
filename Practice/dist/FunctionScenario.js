@@ -1,19 +1,4 @@
 "use strict";
-//     MenuDetails?:[{Items:"Idly",Price:40},
-//                  {Items:"Dosa",Price:50},
-//                  {Items:"poori",Price:60},
-//                  {Items:"Masal Dosa",Price:100}
-//                 ]
-//    MenuDetails?:[{Items:"Veg meals",Price:250},
-//                 {Items:"Non-veg meals",Price:400},
-//                 {Items:"Chicken Briyani",Price:300},
-//                 {Items:"Mutton Briyani",Price:500}
-//                ]
-//     MenuDetails?:[{Items:"Set Parrotta",Price:80},
-//                  {Items:"Chicken Fried Rice",Price:150},
-//                  {Items:"Egg Rice",Price:100},
-//                  {Items:"Chicken 777",Price:130}
-//                 ]
 function CheckDiscount(TotalAmount) {
     if (TotalAmount >= 500) {
         return TotalAmount - 100;
